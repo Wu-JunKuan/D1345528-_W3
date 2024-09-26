@@ -1,3 +1,3 @@
 n = int(input('輸入數字：'))
-a = n % 2
-print('結果：',n,'是奇數',)
+result = (n % 2 == 0) * "偶數" + (n % 2 == 1) * "奇數"
+print(f"{n} 是 {result}")
